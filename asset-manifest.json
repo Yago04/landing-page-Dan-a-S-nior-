@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Yago04/landing-page-Dan-a-S-nior-/static/css/main.2a667c7c.css",
+    "main.js": "/Yago04/landing-page-Dan-a-S-nior-/static/js/main.129bc3b1.js",
+    "static/js/453.b0442444.chunk.js": "/Yago04/landing-page-Dan-a-S-nior-/static/js/453.b0442444.chunk.js",
+    "static/media/video.mp4": "/Yago04/landing-page-Dan-a-S-nior-/static/media/video.5412146d71e9087af4c1.mp4",
+    "static/media/videohistoria.mp4": "/Yago04/landing-page-Dan-a-S-nior-/static/media/videohistoria.14db7fd16bc7937baba3.mp4",
+    "static/media/video2.mp4": "/Yago04/landing-page-Dan-a-S-nior-/static/media/video2.5629e033d2149da0b5bb.mp4",
+    "static/media/imagemcarrosel1.png": "/Yago04/landing-page-Dan-a-S-nior-/static/media/imagemcarrosel1.435e16dc7da6eeca8a58.png",
+    "static/media/imagemcarousel2.png": "/Yago04/landing-page-Dan-a-S-nior-/static/media/imagemcarousel2.c426c1e56c680c441900.png",
+    "static/media/fotoidosos.png": "/Yago04/landing-page-Dan-a-S-nior-/static/media/fotoidosos.82d235af86065e43356d.png",
+    "static/media/grupoidosos.png": "/Yago04/landing-page-Dan-a-S-nior-/static/media/grupoidosos.ad687de57e7578718d42.png",
+    "static/media/card2.png": "/Yago04/landing-page-Dan-a-S-nior-/static/media/card2.cb879dc8ddc25e2757b3.png",
+    "static/media/card1.png": "/Yago04/landing-page-Dan-a-S-nior-/static/media/card1.73c83c6db8e669f65a16.png",
+    "static/media/Container3.png": "/Yago04/landing-page-Dan-a-S-nior-/static/media/Container3.0275a413202e7d3cffa7.png",
+    "static/media/container2.png": "/Yago04/landing-page-Dan-a-S-nior-/static/media/container2.02506afc85716aec02c3.png",
+    "static/media/container.png": "/Yago04/landing-page-Dan-a-S-nior-/static/media/container.1841fdbef1e00e18e57d.png",
+    "static/media/logo.png": "/Yago04/landing-page-Dan-a-S-nior-/static/media/logo.f4bc845c2a9179a2610f.png",
+    "static/media/logoAzul.png": "/Yago04/landing-page-Dan-a-S-nior-/static/media/logoAzul.20856b7ff09546a54db0.png",
+    "index.html": "/Yago04/landing-page-Dan-a-S-nior-/index.html",
+    "main.2a667c7c.css.map": "/Yago04/landing-page-Dan-a-S-nior-/static/css/main.2a667c7c.css.map",
+    "main.129bc3b1.js.map": "/Yago04/landing-page-Dan-a-S-nior-/static/js/main.129bc3b1.js.map",
+    "453.b0442444.chunk.js.map": "/Yago04/landing-page-Dan-a-S-nior-/static/js/453.b0442444.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a667c7c.css",
+    "static/js/main.129bc3b1.js"
+  ]
+}
