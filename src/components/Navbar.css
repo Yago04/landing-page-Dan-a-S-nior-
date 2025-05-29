@@ -1,0 +1,153 @@
+.custom-navbar {
+  width: 100vw;
+  height: 60px;
+  background: linear-gradient(90deg, #003399 0%, #0044cc 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: #fff !important;
+  margin-right: 40px;
+}
+
+.nav-center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  height: 100%;
+  transform: translateX(-50%);
+}
+
+.navbar-collapse {
+  position: relative;
+}
+
+.nav-link {
+  color: #fff !important;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none !important;
+  transition: color 0.3s;
+  margin: 0 10px;
+  position: relative;
+  padding-bottom: 4px;
+}
+
+.nav-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #fff;
+  transition: width 0.3s;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.nav-link:hover {
+  color: #e6e6e6 !important;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.whatsapp-btn {
+  border: 2px solid #fff;
+  color: #fff !important;
+  background: transparent;
+  border-radius: 8px;
+  padding: 6px 32px;
+  font-size: 17px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+  display: inline-block;
+  text-align: center;
+}
+
+.whatsapp-btn:hover {
+  background: #fff;
+  color: #003399 !important;
+}
+
+@media (max-width: 991px) {
+  .nav-center {
+    gap: 20px;
+    position: static;
+    left: unset;
+    transform: unset;
+    background: rgba(0, 51, 153, 0.95);
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav-link {
+    width: 100%;
+    text-align: center;
+    padding: 12px 20px;
+    margin: 5px 0;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+  }
+
+  .nav-link:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+
+  .nav-link::after {
+    display: none;
+  }
+
+  .whatsapp-btn {
+    width: 100%;
+    margin: 5px 0;
+    padding: 12px 20px;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    display: block;
+  }
+
+  .whatsapp-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff !important;
+  }
+
+  .navbar-collapse {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-brand img {
+    height: 32px;
+  }
+  .nav-link {
+    font-size: 14px;
+    margin: 0 4px;
+  }
+  .nav-center {
+    gap: 10px;
+  }
+} 

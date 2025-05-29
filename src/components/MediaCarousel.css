@@ -1,0 +1,41 @@
+/* Mantém o carrossel normal com limite de largura */
+.media-carousel-container {
+  max-width: 900px;
+  margin: 80px auto 0 auto;
+  padding: 0 16px;
+}
+
+/* Estilo apenas para as imagens */
+.carousel-img {
+  max-height: 420px;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* Ajuste para o slide de vídeo fullscreen */
+.carousel-video-wrapper {
+  width: 100%;
+  height: auto;
+  background: #000;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.carousel-video {
+  width: 100%;
+  max-height: 420px;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  border-radius: 8px;
+}
+
+
+/* Responsivo */
+@media (max-width: 900px) {
+  .carousel-img,
+  .carousel-video {
+    max-height: 260px;
+    height: 220px;
+  }
+}
