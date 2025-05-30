@@ -1,8 +1,8 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
-import img1 from '../assets/img/imagemcarrossel/imagemcarousel2.png'; 
-import img2 from '../assets/img/imagemcarrossel/imagemcarousel2.png'; 
-import img3 from '../assets/img/imagemcarrossel/imagemcarrosel1.png'; 
+import img1 from '../assets/img/imagemcarrossel/banner1.png'; 
+import img2 from '../assets/img/imagemcarrossel/banner2.png'; 
+import img3 from '../assets/img/imagemcarrossel/banner3.png'; 
 import video from '../assets/img/imagemcarrossel/video.mp4';
 
 function MediaCarousel() {

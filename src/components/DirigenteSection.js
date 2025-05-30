@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import logo from '../assets/img/logo.png';
 import bgSection from '../assets/img/imagecontainer/Container3.png';
-import imgDirigente from '../assets/img/imagesIdosos/fotoidosos.png';
+import imgDirigente from '../assets/img/imagesIdosos/fotoidoso.jpg';
 import imgCard1 from '../assets/img/imagesIdosos/card1.png';
-import imgCard2 from '../assets/img/imagesIdosos/card2.png';
+import imgCard2 from '../assets/img/imagesIdosos/DancaPE.jpg';
 import imgCard3 from '../assets/img/imagesIdosos/card2.png';
 import './DirigenteSection.css';
 import './animations.css';
@@ -19,7 +19,7 @@ function FlipCard({ image, title, desc, btnText, btnLink }) {
         <div className="flip-card-back">
           <h4>{title}</h4>
           <p>{desc}</p>
-          <a href={btnLink} className="flip-card-btn hover-scale" target="_blank" rel="noopener noreferrer">{btnText}</a>
+          <a  className="flip-card-btn hover-scale">{btnText}</a>
         </div>
       </div>
     </div>
@@ -51,23 +51,23 @@ function DirigenteSection() {
         <div className="dirigente-cards-row">
           <FlipCard
             image={imgCard1}
-            title="Curso 1"
-            desc="Descrição do curso 1. Clique para saber mais."
-            btnText="Saiba mais"
+            title="Curso Dançando Sentado"
+            desc="Curso Dançando Sentado"
+            btnText="Em breve"
             btnLink="#"
           />
           <FlipCard
             image={imgCard2}
-            title="Curso 2"
-            desc="Descrição do curso 2. Clique para saber mais."
-            btnText="Saiba mais"
+            title="Curso Dançando em Pé"
+            desc=""
+            btnText="Em breve"
             btnLink="#"
           />
           <FlipCard
             image={imgCard3}
-            title="Curso 3"
-            desc="Descrição do curso 3. Clique para saber mais."
-            btnText="Saiba mais"
+            title="Curso ISDC França 2023 - Parte 1"
+            desc=""
+            btnText="Em breve"
             btnLink="#"
           />
         </div>

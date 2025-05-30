@@ -1,6 +1,6 @@
 .custom-navbar {
   width: 100vw;
-  height: 60px;
+  height: 80px;
   background: linear-gradient(90deg, #003399 0%, #0044cc 100%);
   display: flex;
   justify-content: center;
@@ -22,7 +22,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 40px;
+  gap: 60px;
   position: absolute;
   left: 50%;
   top: 0;
@@ -137,6 +137,17 @@
   .navbar-collapse {
     width: 100%;
   }
+
+  .navbar-nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar-nav .whatsapp-btn {
+    margin-top: 10px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -150,4 +161,9 @@
   .nav-center {
     gap: 10px;
   }
+
+  .custom-navbar {
+    height: 40px;
+  }
+
 } 

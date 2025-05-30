@@ -4,8 +4,8 @@ import backgroundImg from '../assets/img/imagecontainer/container.png';
 import logo from '../assets/img/logo.png';
 import './HeroSection.css';
 import './animations.css';
-import video1 from '../assets/videos/videohistoria.mp4'
-import video2 from '../assets/videos/video2.mp4'
+import video1 from '../assets/videos/videohistoria.mp4';
+import video2 from '../assets/videos/video2.mp4';
 
 function HeroSection() {
   return (
@@ -21,38 +21,38 @@ function HeroSection() {
               A Dança Sênior Brasil é uma organização sem fins lucrativos dedicada à capacitação de dirigentes de dança, oferecendo formação para transformar vidas por meio da dança. Com nossa metodologia estruturada, promovemos qualidade de vida, inclusão social e transformação cultural, ajudando as pessoas a vivenciarem um novo ritmo de vida, com movimentos que fortalecem o corpo, mente e espírito.
             </p>
             <div className="hero-btns-row">
-              <a href="https://www.instagram.com/p/C6H3VWZgoVf/?img_index=2" target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none'}}>
+              <a href="https://www.instagram.com/p/C6H3VWZgoVf/?img_index=2" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
                 <button className="hero-btn hover-scale">Faça parte desse movimento!</button>
               </a>
             </div>
           </div>
           <div className="hero-right animate-slide-right">
             <div className="hero-carousel-box">
-              <Carousel interval={null} controls={true} indicators={true} style={{width: '100%'}}>
+              <Carousel interval={null} controls indicators style={{ width: '100%' }}>
                 <Carousel.Item>
                   <div className="hero-video-wrapper full">
-                    <iframe
+                    <video
                       width="640"
                       height="350"
-                      src={video1}
-                      title="Vídeo 1"
-                      frameBorder="0"
-                      allow="accelerometer;clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowFullScreen
-                    ></iframe>
+                      controls
+                      preload="metadata"
+                    >
+                      <source src={video1} type="video/mp4" />
+                      Seu navegador não suporta a reprodução de vídeo.
+                    </video>
                   </div>
                 </Carousel.Item>
                 <Carousel.Item>
                   <div className="hero-video-wrapper full">
-                    <iframe
+                    <video
                       width="640"
                       height="350"
-                      src={video2}
-                      title="Vídeo 2"
-                      frameBorder="0"
-                      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowFullScreen
-                    ></iframe>
+                      controls
+                      preload="metadata"
+                    >
+                      <source src={video2} type="video/mp4" />
+                      Seu navegador não suporta a reprodução de vídeo.
+                    </video>
                   </div>
                 </Carousel.Item>
               </Carousel>
@@ -64,4 +64,4 @@ function HeroSection() {
   );
 }
 
-export default HeroSection; 
+export default HeroSection;
