@@ -6,6 +6,14 @@ import img3 from '../assets/img/imagemcarrossel/banner3.png';
 import video from '../assets/img/imagemcarrossel/video.mp4';
 
 function MediaCarousel() {
+  // Função que recebe o id da seção para onde deve rolar
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div className="media-carousel-container">
       <Carousel fade>
@@ -14,6 +22,8 @@ function MediaCarousel() {
             className="d-block w-100 carousel-img"
             src={img1}
             alt="Primeira imagem"
+            onClick={() => scrollToSection('associado-section')}
+            style={{ cursor: 'pointer' }}
           />
         </Carousel.Item>
         <Carousel.Item>
@@ -21,6 +31,8 @@ function MediaCarousel() {
             className="d-block w-100 carousel-img"
             src={img2}
             alt="Segunda imagem"
+            onClick={() => scrollToSection('courses-section')}
+            style={{ cursor: 'pointer' }}
           />
         </Carousel.Item>
         <Carousel.Item>
@@ -28,6 +40,8 @@ function MediaCarousel() {
             className="d-block w-100 carousel-img"
             src={img3}
             alt="Terceira imagem"
+            onClick={() => scrollToSection('')}
+            style={{ cursor: 'pointer' }}
           />
         </Carousel.Item>
         <Carousel.Item>
