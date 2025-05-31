@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/landing-page-Dan-a-S-nior-/static/css/main.36f9da96.css",
-    "main.js": "/landing-page-Dan-a-S-nior-/static/js/main.bf97c901.js",
+    "main.js": "/landing-page-Dan-a-S-nior-/static/js/main.efd5302e.js",
     "static/js/453.b0442444.chunk.js": "/landing-page-Dan-a-S-nior-/static/js/453.b0442444.chunk.js",
     "static/media/video.mp4": "/landing-page-Dan-a-S-nior-/static/media/video.5412146d71e9087af4c1.mp4",
     "static/media/videohistoria.mp4": "/landing-page-Dan-a-S-nior-/static/media/videohistoria.14db7fd16bc7937baba3.mp4",
@@ -9,6 +9,7 @@
     "static/media/banner2.png": "/landing-page-Dan-a-S-nior-/static/media/banner2.dd79638c24d576682d39.png",
     "static/media/banner1.png": "/landing-page-Dan-a-S-nior-/static/media/banner1.d5a272d0912c1262840a.png",
     "static/media/banner3.png": "/landing-page-Dan-a-S-nior-/static/media/banner3.2eaf2d43742a1573ecec.png",
+    "static/media/images.jpg": "/landing-page-Dan-a-S-nior-/static/media/images.8982fbb86d77cc094259.jpg",
     "static/media/DancaPE.jpg": "/landing-page-Dan-a-S-nior-/static/media/DancaPE.e7bf7bda1046f0084c3f.jpg",
     "static/media/DancaCadeira.jpg": "/landing-page-Dan-a-S-nior-/static/media/DancaCadeira.9f1540aac10e192ebc82.jpg",
     "static/media/fotoidoso.jpg": "/landing-page-Dan-a-S-nior-/static/media/fotoidoso.b4d7a22cd0683f95e23e.jpg",
@@ -23,11 +24,11 @@
     "static/media/logoAzul.png": "/landing-page-Dan-a-S-nior-/static/media/logoAzul.20856b7ff09546a54db0.png",
     "index.html": "/landing-page-Dan-a-S-nior-/index.html",
     "main.36f9da96.css.map": "/landing-page-Dan-a-S-nior-/static/css/main.36f9da96.css.map",
-    "main.bf97c901.js.map": "/landing-page-Dan-a-S-nior-/static/js/main.bf97c901.js.map",
+    "main.efd5302e.js.map": "/landing-page-Dan-a-S-nior-/static/js/main.efd5302e.js.map",
     "453.b0442444.chunk.js.map": "/landing-page-Dan-a-S-nior-/static/js/453.b0442444.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.36f9da96.css",
-    "static/js/main.bf97c901.js"
+    "static/js/main.efd5302e.js"
   ]
 }
