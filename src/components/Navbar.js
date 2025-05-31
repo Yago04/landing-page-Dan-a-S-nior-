@@ -27,7 +27,7 @@ function NavigationBar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto nav-center" style={{width:'80%'}}>
             <Nav.Link onClick={() => scrollToSection('herosection')} >O que é Dança Senior</Nav.Link>
-            <Nav.Link onClick={() => scrollToSection('associado-section')} >Seja um(a) Assoido(a)</Nav.Link>
+            <Nav.Link onClick={() => scrollToSection('associado-section')} >Seja um(a) Assosiado(a)</Nav.Link>
             <Nav.Link onClick={() => scrollToSection('dirigente-section')}>Seja um Dirigente</Nav.Link>
             <Nav.Link onClick={() => scrollToSection('courses-section')}>Conheça nossos Cursos</Nav.Link>
             <a

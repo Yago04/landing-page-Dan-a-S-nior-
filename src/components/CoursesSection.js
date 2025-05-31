@@ -3,7 +3,7 @@ import './CoursesSection.css';
 import './animations.css';
 import bgSection from '../assets/img/imagecontainer/container2.png'; // Placeholder background image
 import courseImg1 from '../assets/img/imagesIdosos/DancaPE.jpg'; // Placeholder image 1
-import courseImg2 from '../assets/img/imagesIdosos/DancaPE.jpg'; // Placeholder image 2
+import courseImg2 from '../assets/img/imagesIdosos/images.jpg'; // Placeholder image 2
 import courseImg3 from '../assets/img/imagesIdosos/fotoidoso.jpg'; // Placeholder image 3
 import courseImg4 from '../assets/img/imagesIdosos/DancaCadeira.jpg'; // Placeholder image 4
 import courseImg5 from '../assets/img/imagesIdosos/grupoidosos.png'; // Placeholder image 5
